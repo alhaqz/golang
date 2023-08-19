@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/alhaqz/golang/puppy"
+	"github.com/alhaqz/puppy"
 )
 
 func main() {
-	s1, s2 := puppy.Bark(), puppy.Barks()
+	s1, s2, s3, s4 := puppy.Bark(), puppy.Barks(), puppy.BigBark(), puppy.BigBarks()
 
-	fmt.Println(s1, s2)
+	fmt.Println(s1, s2, s3, s4)
 	
-}
+} 
